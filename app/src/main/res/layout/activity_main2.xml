@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@drawable/tree">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#CCFFFFFF">
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/love"
+    android:id="@+id/blkhrt"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="80dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USER NAME"
+            android:textSize="17sp"
+            android:textColor="#ff1111"
+            android:backgroundTint="@android:color/transparent"
+            android:textStyle="bold"
+           android:layout_marginLeft="30dp"
+             android:id="@+id/usr"
+            android:layout_below="@id/blkhrt"/>
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="anneb@gmail.com"
+            android:backgroundTint="#ff1111"
+            android:id="@+id/usrhint"
+            android:layout_below="@id/usr"
+            android:layout_marginLeft="30dp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PASSWORD"
+            android:textSize="17sp"
+            android:textColor="#ff1111"
+            android:backgroundTint="@android:color/transparent"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/pass"
+            android:layout_below="@id/usrhint"/>
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="*************"
+            android:backgroundTint="#ff1111"
+            android:layout_below="@id/pass"
+            android:id="@+id/pasrdhint"
+            android:layout_marginLeft="30dp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password ?"
+            android:textColor="#ffff"
+            android:textSize="13sp"
+            android:id="@+id/forgot"
+           android:layout_below="@id/pasrdhint"
+            android:layout_alignEnd="@id/pasrdhint"
+            android:textStyle="bold"
+            android:backgroundTint="@android:color/transparent"/>
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnlog"
+            android:text="LOGIN"
+            android:textColor="#ff1111"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_below="@id/forgot"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/btn2"
+            android:layout_marginTop="10dp"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="_______     OR CONNECT WITH   _______"
+          android:textSize="20sp"
+            android:textColor="#ada9a9"
+            android:textStyle="bold"
+            android:id="@+id/orconn"
+            android:layout_below="@id/btnlog"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@android:color/transparent"/>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="30dp"
+    android:layout_below="@id/orconn">
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/fcbook"
+        android:text="FACEBOOK"
+        android:textColor="#FFFF"
+        android:drawableLeft="@drawable/facebook"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:paddingRight="4dp"
+        android:layout_below="@id/text"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/btn3"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnlog"
+        android:text="GMAIL"
+        android:textColor="#FFFF"
+        android:textStyle="bold"
+        android:textSize="20sp"
+ android:drawableLeft="@drawable/ggg"
+        android:layout_below="@id/forgot"
+
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@id/fcbook"
+        android:background="@drawable/btn1"
+        android:layout_marginTop="10dp"
+        />
+</RelativeLayout>
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
